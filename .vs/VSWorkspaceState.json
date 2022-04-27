@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\css",
+    "\\js"
   ],
-  "SelectedNode": "\\C:\\my\\GH\\frontend",
+  "SelectedNode": "\\js\\resume.js",
   "PreviewInSolutionExplorer": false
 }
