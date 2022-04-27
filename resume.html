@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html>
+
+<title>Resume</title>
+
+<!-- тело страницы. стиль выравнено по левому краю -->
+<body style="text-align:left;">
+    
+    <h1>John Smith Junior</h1>
+	
+	<p id="general-info">
+	    <!-- блок общей информации, стиль границы тонкая точками серая -->
+	    <div style="border:thin dotted gray;">
+		    <!-- кнопка отображения/скрытия содержание блока общей информации. вызывает функцию из скрипта -->
+			<button id="general-info-button" onclick="showGeneralInfoContent()">General info (show)</button>
+			<!-- содержание блока общей информации. стиль видимый(block) / скрытый (none) -->
+			<div id="general-info-content" style="display:none;">
+				Marital status: single, no children. <br>
+				Citizenship: US. <br>
+				Lives: Oslo (ready to relocate to Helsinki)<br>
+			</div>
+		</div>
+	</p>
+	
+	<p id="languages">
+		<div style="border:thin dotted gray;">
+			<button id="languages-button" onclick="showLanguagesContent()">Language skills (show)</button>
+	        <div id="languages-content" style="display:none;">
+				English - native<br>
+				Norwegian - fluent<br>
+				Finnish - upper-intermediate<br>
+			</div>
+		</div>
+	</p>
+
+    <!-- скрипт JS -->
+	<script src="./js/resume.js"></script>
+	
+</body> 
+</html>
